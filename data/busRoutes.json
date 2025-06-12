@@ -1,0 +1,1608 @@
+{
+  "buses": [
+    {
+      "number": "AS3",
+      "name": "New Town - Garia Station",
+      "type": "Regular",
+      "route": [
+        "New Town",
+        "East Enclave",
+        "Technopolis",
+        "College More",
+        "Webel",
+        "SDF",
+        "Swastha Bhawan",
+        "Nicco Park",
+        "Chingrighata",
+        "Science City",
+        "Uttar Panchanyagram",
+        "Ruby Hospital",
+        "Kalikapur",
+        "Ajoynagar",
+        "Patuli",
+        "Dhalai Bridge",
+        "Balia",
+        "Garia Station"
+      ],
+      "landmarks": [
+        "Technopolis",
+        "Nicco Park",
+        "Science City",
+        "Ruby Hospital",
+        "Garia Station"
+      ]
+    },
+    {
+      "number": "1",
+      "name": "Ramnagar to Mukundapur",
+      "type": "Regular",
+      "route": [
+        "Ramnagar",
+        "BNR",
+        "Kidderpore",
+        "Bhabani Bhawan",
+        "Alipore Zoo",
+        "Hazra",
+        "Rashbehari",
+        "Gariahat",
+        "Kasba Post Office",
+        "Haltu",
+        "Safuipara",
+        "EM Bypass",
+        "Mukundapur"
+      ],
+      "landmarks": [
+        "Alipore Zoo",
+        "Gariahat",
+        "EM Bypass"
+      ]
+    },
+    {
+      "number": "1A",
+      "name": "Ramnagar to Mukundapur",
+      "type": "Regular",
+      "route": [
+        "Ramnagar",
+        "Kidderpore",
+        "Alipore Zoo",
+        "Bhabani Bhawan Hazra",
+        "Rashbehari",
+        "Tollygunge Phari",
+        "Jadavpur PS",
+        "8B",
+        "Santoshpur",
+        "Ajoynagar",
+        "EM Bypass",
+        "Mukundapur"
+      ],
+      "landmarks": [
+        "Alipore Zoo",
+        "Tollygunge Phari",
+        "EM Bypass"
+      ]
+    },
+    {
+      "number": "1B",
+      "name": "Ramnagar to Nayabad",
+      "type": "Regular",
+      "route": [
+        "Ramnagar",
+        "Nature Park",
+        "Taratala",
+        "Tollygunge Phari",
+        "Rashbehari",
+        "Desapriya Park",
+        "Golpark",
+        "Dhakuria",
+        "Jadavpur 8B",
+        "Santoshpur",
+        "Ajoynagar",
+        "EM Bypass New Garia",
+        "Garia Station",
+        "Nayabad"
+      ],
+      "landmarks": [
+        "Nature Park",
+        "Golpark",
+        "Garia Station"
+      ]
+    },
+    {
+      "number": "3B",
+      "name": "New Alipore to Milk Colony",
+      "type": "Regular",
+      "route": [
+        "New Alipore",
+        "Durgapur Bridge",
+        "Rashbehari",
+        "Kalighat",
+        "Hazra",
+        "Bhawanipur",
+        "Rabindra Sadan",
+        "Maidan",
+        "Park Street",
+        "Esplanade",
+        "Chandni Chowk",
+        "Central",
+        "Medical College",
+        "MG Road Metro",
+        "Girish Park",
+        "Shobhabazar",
+        "Shyambazar",
+        "RG Kar",
+        "Belgachia Metro",
+        "Milk Colony"
+      ],
+      "landmarks": [
+        "Kalighat",
+        "Esplanade",
+        "Shyambazar"
+      ]
+    },
+    {
+      "number": "3C/1",
+      "name": "Anandapur to Nagerbazar",
+      "type": "Regular",
+      "route": [
+        "Anandapur",
+        "Ruby",
+        "Kasba",
+        "Ballygunge Station",
+        "Gariahat",
+        "Rashbehari",
+        "Kalighat",
+        "Hazra",
+        "Bhawanipur",
+        "Rabindra Sadan",
+        "Maidan",
+        "Park Street",
+        "Esplanade",
+        "Wellington",
+        "Moulali",
+        "Sealdah",
+        "Rajabazar",
+        "Maniktala",
+        "Khanna",
+        "Shyambazar",
+        "RG Kar",
+        "Belgachia Metro",
+        "Bangur Avenue",
+        "Diamond Plaza",
+        "Nagerbazar"
+      ],
+      "landmarks": [
+        "Ruby Hospital",
+        "Gariahat",
+        "Esplanade",
+        "Sealdah"
+      ]
+    },
+    {
+      "number": "3C/2",
+      "name": "Anandapur to Nagerbazar",
+      "type": "Regular",
+      "route": [
+        "Anandapur",
+        "Ruby",
+        "Kasba",
+        "Ballygunge Station",
+        "Gariahat",
+        "Desapriya Park",
+        "Shishu Mangal",
+        "Minto Park",
+        "Rabindra Sadan",
+        "Maidan",
+        "Park Street",
+        "Esplanade",
+        "Wellington",
+        "College Street",
+        "Hatibagan",
+        "Shyambazar",
+        "RG Kar",
+        "Belgachia Metro",
+        "Bangur Avenue",
+        "Diamond Plaza",
+        "Nagerbazar"
+      ],
+      "landmarks": [
+        "Ruby Hospital",
+        "Gariahat",
+        "Esplanade",
+        "College Street"
+      ]
+    },
+    {
+      "number": "3D",
+      "name": "Sakherbazar (Behala) to Milk Colony",
+      "type": "Regular",
+      "route": [
+        "Sakherbazar (Behala)",
+        "Behala 14 No.",
+        "Taratala",
+        "Mominpore",
+        "Ekbalpur",
+        "Kidderpore",
+        "Hastings",
+        "PTS",
+        "Rabindra Sadan",
+        "Maidan",
+        "Park Street",
+        "Esplanade",
+        "Wellington",
+        "Moulali",
+        "Sealdah",
+        "Rajabazar",
+        "Maniktala",
+        "Khanna",
+        "Shyambazar",
+        "RG Kar",
+        "Belgachia Metro",
+        "Milk Colony"
+      ],
+      "landmarks": [
+        "Behala",
+        "Esplanade",
+        "Sealdah"
+      ]
+    },
+    {
+      "number": "12",
+      "name": "Badartala to Rajabazar",
+      "type": "Regular",
+      "route": [
+        "Badartala",
+        "Metiabruz",
+        "Ramnagar",
+        "Taratala",
+        "BNR",
+        "Kidderpore",
+        "Hastings",
+        "Babughat",
+        "Esplanade",
+        "Wellington",
+        "Moulali",
+        "Sealdah",
+        "Rajabazar"
+      ],
+      "landmarks": [
+        "Metiabruz",
+        "Esplanade",
+        "Sealdah"
+      ]
+    },
+    {
+      "number": "12 (Shuttle)",
+      "name": "Badartala to Esplanade",
+      "type": "Shuttle",
+      "route": [
+        "Badartala",
+        "Metiabruz",
+        "Bichalighat",
+        "Fatehpur 28 No",
+        "Ramnagar",
+        "Kidderpore",
+        "Hastings",
+        "Babughat",
+        "Esplanade"
+      ],
+      "landmarks": [
+        "Metiabruz",
+        "Esplanade"
+      ]
+    },
+    {
+      "number": "12A",
+      "name": "Badartala to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Badartala",
+        "Rajabagan",
+        "Metiabruz",
+        "Bichali Ghar",
+        "Mudiali More",
+        "H.M.G. College",
+        "Fatehpur",
+        "Ramnagar",
+        "Garden Reach",
+        "Babubazar",
+        "Kidderpore",
+        "Hastings",
+        "Princep Ghat",
+        "Babughat",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Metiabruz",
+        "Princep Ghat",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "12AD",
+      "name": "Akra Fatak to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Akra Fatak",
+        "Santoshpur Station",
+        "Nature Park",
+        "Jhinjhira Bazar",
+        "Brace Bridge",
+        "Taratala",
+        "Majherhat",
+        "Mominpore",
+        "Ekbalpur",
+        "Kidderpore",
+        "Hastings",
+        "Fort William",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Nature Park",
+        "Fort William",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "12B (Shuttle)",
+      "name": "Kamal Talkies to Esplanade",
+      "type": "Shuttle",
+      "route": [
+        "Kamal Talkies",
+        "Ramnagar",
+        "Garden Reach",
+        "Babubazar",
+        "Kidderpore",
+        "Hastings",
+        "Fort William",
+        "Esplanade"
+      ],
+      "landmarks": [
+        "Fort William",
+        "Esplanade"
+      ]
+    },
+    {
+      "number": "12C",
+      "name": "Pailan to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Pailan",
+        "Joka Bridge",
+        "Thakurpukur",
+        "Shilpara",
+        "Sakher Bazar",
+        "Behala Chowrasta",
+        "Behala 14 No.",
+        "Taratala",
+        "Brace Bridge",
+        "Hide Road",
+        "BNR Hospital",
+        "Babubazar",
+        "Kidderpore",
+        "Hastings",
+        "Fort William",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Joka Bridge",
+        "Fort William",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "12C/1",
+      "name": "Shibrampur to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Shibrampur",
+        "Shakuntala Park",
+        "Bakultala",
+        "Behala Chowrasta",
+        "Behala 14 No.",
+        "Majherhat",
+        "Mominpore",
+        "Ekbalpur",
+        "Kidderpore",
+        "Hastings",
+        "PTS More",
+        "Rabindra Sadan",
+        "Maidan Metro",
+        "Park Street",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Rabindra Sadan",
+        "Esplanade",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "12C/2",
+      "name": "Aquatica to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Aquatica",
+        "Thakdari",
+        "Kestopur Bazar",
+        "Dumdum Park",
+        "Laketown",
+        "Sreebhumi",
+        "Ultadanga",
+        "Khanna Cinema",
+        "Maniktala",
+        "Rajabazar",
+        "Sealdah Station",
+        "College Street",
+        "Medical College",
+        "Bowbazar",
+        "Central Metro",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Ultadanga",
+        "Sealdah Station",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "12C/1A",
+      "name": "Pailan to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Pailan",
+        "Joka Bridge",
+        "Thakurpukur",
+        "Shilpara",
+        "Sakher Bazar",
+        "Behala Chowrasta",
+        "Behala 14 No.",
+        "Majherhat",
+        "Mominpore",
+        "Ekbalpur",
+        "Kidderpore",
+        "Hastings",
+        "Fort William",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Joka Bridge",
+        "Fort William",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "12C/1B",
+      "name": "Pailan to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Pailan",
+        "Joka Bridge",
+        "Thakurpukur 3A",
+        "Cancer Hospital",
+        "Kalitala Housing",
+        "Kabardanga",
+        "Keorapukur",
+        "Haridevpur",
+        "Tollygunge",
+        "Rabindra Sarovar",
+        "Rashbehari",
+        "Kalighat",
+        "Hazra More",
+        "Bhowanipore",
+        "Rabindra Sadan",
+        "Maidan Metro",
+        "Park Street",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Joka Bridge",
+        "Rabindra Sadan",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "13",
+      "name": "Parnasree to Sealdah Station",
+      "type": "Regular",
+      "route": [
+        "Parnasree",
+        "Jhinjhira Bazar",
+        "Brace Bridge",
+        "Taratala",
+        "Majherhat",
+        "Mominpore",
+        "Ekbalpur",
+        "Kidderpore",
+        "Hastings",
+        "Fort William",
+        "Esplanade",
+        "Dalhousie",
+        "Central Metro",
+        "Bowbazar",
+        "Medical College",
+        "College Street",
+        "Sealdah Station"
+      ],
+      "landmarks": [
+        "Fort William",
+        "Esplanade",
+        "Sealdah Station"
+      ]
+    },
+    {
+      "number": "13A",
+      "name": "S.M.Nagar to BBD Bag",
+      "type": "Regular",
+      "route": [
+        "S.M.Nagar",
+        "Sarkarpool",
+        "Jhinjhira Bazar",
+        "Brace Bridge",
+        "Taratala",
+        "Majherhat",
+        "Mominpore",
+        "Alipore Court",
+        "Kalighat",
+        "Hazra More",
+        "Bhowanipore",
+        "Rabindra Sadan",
+        "Maidan Metro",
+        "Park Street",
+        "Esplanade",
+        "BBD Bag"
+      ],
+      "landmarks": [
+        "Kalighat",
+        "Esplanade",
+        "BBD Bag"
+      ]
+    },
+    {
+      "number": "13C",
+      "name": "Old Dakghar to Baghajatin",
+      "type": "Regular",
+      "route": [
+        "Old Dakghar",
+        "Mollargate",
+        "Rampur Quarter",
+        "S.M. Nagar",
+        "Sarkarpool",
+        "Jhinjhira Bazar",
+        "Brace Bridge",
+        "Taratala",
+        "Majherhat",
+        "Mominpore",
+        "Alipore Court",
+        "Hazra More",
+        "Kalighat",
+        "Rashbehari",
+        "Desapriya Park",
+        "Gariahat",
+        "Golpark",
+        "Dhakuria",
+        "Jadavpur 8B",
+        "Baghajatin"
+      ],
+      "landmarks": [
+        "Kalighat",
+        "Gariahat",
+        "Golpark"
+      ]
+    },
+    {
+      "number": "17",
+      "name": "Chetla to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Chetla",
+        "Rashbehari",
+        "Kalighat",
+        "Hazra More",
+        "Alipore Court",
+        "Mominpore",
+        "Ekbalpur",
+        "Kidderpore",
+        "Hastings",
+        "Fort William",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Kalighat",
+        "Fort William",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "18A",
+      "name": "Greenfield City to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Greenfield City",
+        "Shibrampur",
+        "Shakuntala Park",
+        "Bakultala",
+        "Behala Chowrasta",
+        "Behala 14 No.",
+        "Majherhat",
+        "Mominpore",
+        "Ekbalpur",
+        "Kidderpore",
+        "Hastings",
+        "Fort William",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Behala",
+        "Fort William",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "18B/1",
+      "name": "Dakghar (Bagmari) to China Mandir",
+      "type": "Regular",
+      "route": [
+        "Dakghar (Bagmari)",
+        "Moynagarh",
+        "Sarada Park",
+        "Shibrampur",
+        "Shakuntala Park",
+        "Bakultala",
+        "Behala Chowrasta",
+        "Behala 14 No.",
+        "Majherhat",
+        "Mominpore",
+        "Alipore Court",
+        "Hazra More",
+        "Kalighat",
+        "Rashbehari",
+        "Desapriya Park",
+        "Gariahat",
+        "Ballygunge Station",
+        "Kasba PS",
+        "Bosepukur",
+        "Acropolis Mall",
+        "Ruby Hospital",
+        "China Mandir"
+      ],
+      "landmarks": [
+        "Behala",
+        "Ruby Hospital",
+        "Acropolis Mall"
+      ]
+    },
+    {
+      "number": "18C",
+      "name": "Kestor More to Anandapur",
+      "type": "Regular",
+      "route": [
+        "Kestor More",
+        "Sarsuna",
+        "Bakultala",
+        "Behala Chowrasta",
+        "Behala 14 No.",
+        "Majherhat",
+        "Mominpore",
+        "Alipore Court",
+        "Hazra More",
+        "Kalighat",
+        "Rashbehari",
+        "Desapriya Park",
+        "Gariahat",
+        "Ballygunge Station",
+        "Kasba PS",
+        "Bosepukur",
+        "Acropolis Mall",
+        "Ruby Hospital",
+        "Anandapur"
+      ],
+      "landmarks": [
+        "Behala",
+        "Ruby Hospital",
+        "Acropolis Mall"
+      ]
+    },
+    {
+      "number": "18D",
+      "name": "Suryasen Nagar to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Suryasen Nagar",
+        "Sarsuna",
+        "Bakultala",
+        "Behala Chowrasta",
+        "Behala 14 No.",
+        "Majherhat",
+        "Mominpore",
+        "Ekbalpur",
+        "Kidderpore",
+        "Hastings",
+        "Fort William",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Behala",
+        "Fort William",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "21",
+      "name": "Barisha to Sealdah Station",
+      "type": "Regular",
+      "route": [
+        "Barisha",
+        "Shilpara",
+        "Sakher Bazar",
+        "ML Gupta Road",
+        "Muchipara",
+        "Siriti More",
+        "NSHM Campus",
+        "Mahabirtala",
+        "Tollygunge Phari",
+        "Rabindra Sarovar",
+        "Rashbehari",
+        "Kalighat",
+        "Hazra More",
+        "Bhowanipore",
+        "Rabindra Sadan",
+        "Minto Park",
+        "Beckbagan",
+        "Mallick Bazar",
+        "Moulali More",
+        "Sealdah Station"
+      ],
+      "landmarks": [
+        "Tollygunge Phari",
+        "Rabindra Sadan",
+        "Sealdah Station"
+      ]
+    },
+    {
+      "number": "21/1",
+      "name": "Barisha to Sealdah Station",
+      "type": "Regular",
+      "route": [
+        "Barisha",
+        "Shilpara",
+        "Sakher Bazar",
+        "Behala Chowrasta",
+        "Behala 14 No.",
+        "Taratala",
+        "New Alipore",
+        "Mahabirtala",
+        "Tollygunge Phari",
+        "Rabindra Sarovar",
+        "Rashbehari",
+        "Kalighat",
+        "Hazra More",
+        "Bhowanipore",
+        "Rabindra Sadan",
+        "Minto Park",
+        "Beckbagan",
+        "Mallick Bazar",
+        "Moulali More",
+        "Sealdah Station"
+      ],
+      "landmarks": [
+        "Tollygunge Phari",
+        "Rabindra Sadan",
+        "Sealdah Station"
+      ]
+    },
+    {
+      "number": "23",
+      "name": "Barasat to Boalghata",
+      "type": "Regular",
+      "route": [
+        "Barasat",
+        "Chapadali More",
+        "Kazipara Depot",
+        "Kadambagachi",
+        "Goakhali More",
+        "Golabari More",
+        "Pakdaha",
+        "Aminpur",
+        "Paltadanga",
+        "Shasan Bazar",
+        "Mithpukuria",
+        "Majlishpur",
+        "Boalghata"
+      ],
+      "landmarks": [
+        "Barasat",
+        "Goakhali More"
+      ]
+    },
+    {
+      "number": "24",
+      "name": "Topsia to Bandha Ghat",
+      "type": "Regular",
+      "route": [
+        "Topsia",
+        "Christopher Road",
+        "Panchkari More",
+        "Tangra More",
+        "RN Chowdhury Road",
+        "Palmer Bazar",
+        "Sealdah Station",
+        "College Street",
+        "MG Road",
+        "Barabazar",
+        "Howrah Station",
+        "Howrah Maidan",
+        "Pilkhana More",
+        "Salkia Chowrasta",
+        "Bandha Ghat"
+      ],
+      "landmarks": [
+        "Sealdah Station",
+        "Howrah Station",
+        "Bandha Ghat"
+      ]
+    },
+    {
+      "number": "24A",
+      "name": "Topsia to Bandha Ghat",
+      "type": "Regular",
+      "route": [
+        "Topsia",
+        "Christopher Road",
+        "Panchkari More",
+        "Tangra More",
+        "RN Chowdhury Road",
+        "Palmer Bazar",
+        "Sealdah Station",
+        "Moulali More",
+        "Wellington",
+        "Chandni Market",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station",
+        "Howrah Maidan",
+        "Pilkhana More",
+        "Salkia Chowrasta",
+        "Bandha Ghat"
+      ],
+      "landmarks": [
+        "Sealdah Station",
+        "Esplanade",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "24A/1",
+      "name": "Mukundapur to Howrah Fire Station",
+      "type": "Regular",
+      "route": [
+        "Mukundapur",
+        "EM Bypass",
+        "Kalikapur",
+        "Ruby Hospital",
+        "VIP Bazar",
+        "Science City",
+        "Topsia More",
+        "4 No. Bridge",
+        "Chittaranjan Hospital",
+        "CIT Road",
+        "Moulali More",
+        "Wellington",
+        "Chandni Market",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station",
+        "Howrah Fire Station"
+      ],
+      "landmarks": [
+        "Ruby Hospital",
+        "Science City",
+        "Howrah Fire Station"
+      ]
+    },
+    {
+      "number": "24B",
+      "name": "Sealdah Station to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Sealdah Station",
+        "College Street",
+        "MG Road",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Sealdah Station",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "28",
+      "name": "Sealdah Station to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Sealdah Station",
+        "College Street",
+        "MG Road",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Sealdah Station",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "30A",
+      "name": "Sinthee to Esplanade",
+      "type": "Regular",
+      "route": [
+        "Sinthee",
+        "Chiria More",
+        "Shyambazar",
+        "Rajballavpara",
+        "Sovabazar",
+        "Girish Park",
+        "MG Road",
+        "Central Metro",
+        "Chandni Market",
+        "Esplanade"
+      ],
+      "landmarks": [
+        "Shyambazar",
+        "Esplanade"
+      ]
+    },
+    {
+      "number": "30B",
+      "name": "Gouripur to Babughat",
+      "type": "Regular",
+      "route": [
+        "Gouripur",
+        "Birati More",
+        "Airport 3 No.",
+        "Airport 1 No.",
+        "Central Jail",
+        "Nager Bazar",
+        "Diamond Plaza",
+        "Bangur Avenue",
+        "Kalindi More",
+        "Patipukur",
+        "Belgachia",
+        "RG Kar Hospital",
+        "Shyambazar",
+        "Khanna Cinema",
+        "Maniktala",
+        "Rajabazar",
+        "Sealdah Station",
+        "Moulali More",
+        "Wellington",
+        "Chandni Market",
+        "Esplanade",
+        "Babughat"
+      ],
+      "landmarks": [
+        "Airport",
+        "Sealdah Station",
+        "Babughat"
+      ]
+    },
+    {
+      "number": "30C",
+      "name": "Hatiara to Babughat",
+      "type": "Regular",
+      "route": [
+        "Hatiara",
+        "Hela Battala",
+        "Jyangra",
+        "Ashwini Nagar",
+        "Baguiati",
+        "Kestopur",
+        "Dumdum Park",
+        "Laketown",
+        "Kalindi More",
+        "Patipukur",
+        "Belgachia",
+        "RG Kar Hospital",
+        "Shyambazar",
+        "Rajballavpara",
+        "Sovabazar",
+        "Girish Park",
+        "MG Road",
+        "Central Metro",
+        "Chandni Market",
+        "Esplanade",
+        "Babughat"
+      ],
+      "landmarks": [
+        "Baguiati",
+        "Shyambazar",
+        "Babughat"
+      ]
+    },
+    {
+      "number": "30C/1",
+      "name": "Hatiara to Babughat",
+      "type": "Regular",
+      "route": [
+        "Hatiara",
+        "Hela Battala",
+        "Jyangra",
+        "Ashwini Nagar",
+        "Baguiati",
+        "Kestopur",
+        "Dumdum Park",
+        "Laketown",
+        "Sreebhumi",
+        "Ultadanga",
+        "Khanna Cinema",
+        "Maniktala",
+        "Rajabazar",
+        "Sealdah Station",
+        "Moulali More",
+        "Wellington",
+        "Chandni Market",
+        "Esplanade",
+        "Babughat"
+      ],
+      "landmarks": [
+        "Baguiati",
+        "Sealdah Station",
+        "Babughat"
+      ]
+    },
+    {
+      "number": "30D",
+      "name": "Dumdum Canton to Babughat",
+      "type": "Regular",
+      "route": [
+        "Dumdum Canton",
+        "Central Jail",
+        "Nager Bazar",
+        "Diamond Plaza",
+        "Bangur Avenue",
+        "Kalindi More",
+        "Patipukur",
+        "Belgachia",
+        "RG Kar Hospital",
+        "Shyambazar",
+        "Khanna Cinema",
+        "Maniktala",
+        "Rajabazar",
+        "Sealdah Station",
+        "Moulali More",
+        "Wellington",
+        "Chandni Market",
+        "Esplanade",
+        "Babughat"
+      ],
+      "landmarks": [
+        "Dumdum Canton",
+        "Sealdah Station",
+        "Babughat"
+      ]
+    },
+    {
+      "number": "32A",
+      "name": "Dakshineshwar to Sector V (Saltlake)",
+      "type": "Regular",
+      "route": [
+        "Dakshineshwar",
+        "Dunlop More",
+        "Bonhooghly",
+        "Tobin Road",
+        "Sinthee More",
+        "Chiria More",
+        "Shyambazar",
+        "Khanna Cinema",
+        "Ultadanga",
+        "Saltlake PNB",
+        "Saltlake CA Block",
+        "Labony Estate",
+        "Saltlake 13 No. Tank",
+        "Saltlake Stadium",
+        "Saltlake 14 No. Tank",
+        "Sushrut Hospital",
+        "Wipro More",
+        "SDF More",
+        "College More",
+        "Sector V (Saltlake)"
+      ],
+      "landmarks": [
+        "Dakshineshwar",
+        "Saltlake Stadium",
+        "Sector V"
+      ]
+    },
+    {
+      "number": "34B",
+      "name": "Dunlop to Esplanade",
+      "type": "Regular",
+      "route": [
+        "Dunlop",
+        "Bonhooghly",
+        "Baranagar Bazar",
+        "Sinthee More",
+        "Chiria More",
+        "Shyambazar",
+        "Hatibagan",
+        "Hedua More",
+        "Vivekananda Road",
+        "College Street",
+        "Medical College",
+        "Bowbazar",
+        "Hind Cinema",
+        "Wellington",
+        "Chandni Market",
+        "Esplanade"
+      ],
+      "landmarks": [
+        "Shyambazar",
+        "College Street",
+        "Esplanade"
+      ]
+    },
+    {
+      "number": "34C",
+      "name": "Noapara to Esplanade",
+      "type": "Regular",
+      "route": [
+        "Noapara",
+        "Tobin Road",
+        "Sinthee More",
+        "Chiria More",
+        "Shyambazar",
+        "Khanna Cinema",
+        "Maniktala",
+        "Rajabazar",
+        "Sealdah Station",
+        "Moulali More",
+        "Wellington",
+        "Chandni Market",
+        "Esplanade"
+      ],
+      "landmarks": [
+        "Shyambazar",
+        "Sealdah Station",
+        "Esplanade"
+      ]
+    },
+    {
+      "number": "37",
+      "name": "Dhakuria to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Dhakuria",
+        "Jadavpur PS",
+        "South City",
+        "Lake Gardens",
+        "Anwar Shah Road",
+        "Tollygunge Phari",
+        "Mahabirtala",
+        "New Alipore",
+        "Taratala",
+        "Majherhat",
+        "Mominpore",
+        "Ekbalpur",
+        "Kidderpore",
+        "Hastings",
+        "Fort William",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "South City",
+        "Fort William",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "37A",
+      "name": "Dhakuria to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "Dhakuria",
+        "Golpark",
+        "Gariahat",
+        "Desapriya Park",
+        "Rashbehari",
+        "Kalighat",
+        "Hazra More",
+        "Bhowanipore",
+        "Rabindra Sadan",
+        "Maidan Metro",
+        "Park Street",
+        "Esplanade",
+        "Dalhousie",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Gariahat",
+        "Esplanade",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "39",
+      "name": "Picnic Garden to High Court",
+      "type": "Regular",
+      "route": [
+        "Picnic Garden",
+        "Colony Bazar",
+        "Kustia More",
+        "Bondel Gate",
+        "4 No. Bridge",
+        "Chittaranjan Hospital",
+        "CIT Road",
+        "Moulali More",
+        "Wellington",
+        "Chandni Market",
+        "Esplanade",
+        "High Court"
+      ],
+      "landmarks": [
+        "Picnic Garden",
+        "Esplanade",
+        "High Court"
+      ]
+    },
+    {
+      "number": "39A/2",
+      "name": "VIP Bazar to Howrah Station",
+      "type": "Regular",
+      "route": [
+        "VIP Bazar",
+        "Colony Bazar",
+        "Kustia More",
+        "Bondel Gate",
+        "Park Circus",
+        "Mallick Bazar",
+        "Moulali More",
+        "Sealdah Station",
+        "College Street",
+        "MG Road",
+        "Barabazar",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Park Circus",
+        "Sealdah Station",
+        "Howrah Station"
+      ]
+    },
+    {
+      "number": "S1",
+      "name": "Howrah - Esplanade",
+      "type": "AC",
+      "route": [
+        "Howrah Station",
+        "Shibpur",
+        "Botanical Garden",
+        "Santragachi",
+        "Howrah Bridge",
+        "BBD Bag",
+        "Dalhousie",
+        "Esplanade"
+      ],
+      "landmarks": [
+        "Howrah Railway Station",
+        "Howrah Bridge",
+        "Kolkata High Court",
+        "BBD Bag Metro",
+        "Esplanade Metro"
+      ]
+    },
+    {
+      "number": "S2",
+      "name": "Garia - Esplanade",
+      "type": "AC",
+      "route": [
+        "Garia Station",
+        "Baishnabghata",
+        "Patuli",
+        "Kudghat",
+        "Tollygunge",
+        "Kalighat",
+        "Park Street",
+        "Esplanade"
+      ],
+      "landmarks": [
+        "Garia Railway Station",
+        "Tollygunge Metro Station",
+        "Kalighat Temple",
+        "Park Street Metro",
+        "Esplanade Metro"
+      ]
+    },
+    {
+      "number": "S4",
+      "name": "Salt Lake - Esplanade",
+      "type": "AC",
+      "route": [
+        "Salt Lake Sector V",
+        "Salt Lake Stadium",
+        "Salt Lake City Centre",
+        "Bidhannagar",
+        "VIP Road",
+        "Ultadanga",
+        "Shyambazar",
+        "Bowbazar",
+        "Esplanade"
+      ],
+      "landmarks": [
+        "Salt Lake Stadium",
+        "City Centre Mall",
+        "Ultadanga Station",
+        "Shyambazar Metro",
+        "Esplanade Metro"
+      ]
+    },
+    {
+      "number": "12",
+      "name": "Howrah - Shyambazar",
+      "type": "Regular",
+      "route": [
+        "Howrah Station",
+        "Howrah Bridge",
+        "BBD Bag",
+        "Dalhousie",
+        "Burrabazar",
+        "Shyambazar"
+      ],
+      "landmarks": [
+        "Howrah Railway Station",
+        "Howrah Bridge",
+        "BBD Bag Metro",
+        "Burrabazar Market",
+        "Shyambazar Metro"
+      ]
+    },
+    {
+      "number": "30",
+      "name": "Esplanade - Ballygunge",
+      "type": "Regular",
+      "route": [
+        "Esplanade",
+        "Park Street",
+        "Camac Street",
+        "Ballygunge Phari",
+        "Ballygunge Station"
+      ],
+      "landmarks": [
+        "Esplanade Metro",
+        "Park Street Metro",
+        "Quest Mall",
+        "Ballygunge Railway Station"
+      ]
+    },
+    {
+      "number": "45",
+      "name": "Sealdah - Tollygunge",
+      "type": "Regular",
+      "route": [
+        "Sealdah Station",
+        "College Street",
+        "Dalhousie",
+        "Esplanade",
+        "Park Street",
+        "Kalighat",
+        "Tollygunge"
+      ],
+      "landmarks": [
+        "Sealdah Railway Station",
+        "Presidency University",
+        "Indian Museum",
+        "Park Street Metro",
+        "Kalighat Temple",
+        "Tollygunge Metro"
+      ]
+    },
+    {
+      "number": "80",
+      "name": "Jadavpur - Howrah",
+      "type": "Regular",
+      "route": [
+        "Jadavpur University",
+        "8B Bus Stand",
+        "Rashbehari Avenue",
+        "Kalighat",
+        "Park Street",
+        "Esplanade",
+        "Howrah Bridge",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Jadavpur University",
+        "Rabindra Sarobar Metro",
+        "Kalighat Temple",
+        "Park Street Metro",
+        "Howrah Railway Station"
+      ]
+    },
+    {
+      "number": "213",
+      "name": "Garia - Ultadanga",
+      "type": "Regular",
+      "route": [
+        "Garia Station",
+        "Tollygunge",
+        "Kalighat",
+        "Park Street",
+        "Esplanade",
+        "Bowbazar",
+        "Shyambazar",
+        "Ultadanga"
+      ],
+      "landmarks": [
+        "Garia Railway Station",
+        "Tollygunge Metro",
+        "Kalighat Temple",
+        "Park Street Metro",
+        "Shyambazar Metro",
+        "Ultadanga Station"
+      ]
+    },
+    {
+      "number": "AC39",
+      "name": "Howrah - Salt Lake",
+      "type": "AC",
+      "route": [
+        "Howrah Station",
+        "Howrah Bridge",
+        "BBD Bag",
+        "Bowbazar",
+        "Shyambazar",
+        "Ultadanga",
+        "VIP Road",
+        "Salt Lake City Centre",
+        "Salt Lake Sector V"
+      ],
+      "landmarks": [
+        "Howrah Railway Station",
+        "Howrah Bridge",
+        "Shyambazar Metro",
+        "City Centre Mall",
+        "Salt Lake Stadium"
+      ]
+    },
+    {
+      "number": "B15",
+      "name": "Ballygunge - Howrah",
+      "type": "Regular",
+      "route": [
+        "Ballygunge Station",
+        "Ballygunge Phari",
+        "Park Street",
+        "Esplanade",
+        "BBD Bag",
+        "Howrah Bridge",
+        "Howrah Station"
+      ],
+      "landmarks": [
+        "Ballygunge Railway Station",
+        "Park Street Metro",
+        "Esplanade Metro",
+        "Howrah Bridge",
+        "Howrah Railway Station"
+      ]
+    },
+    {
+      "number": "29",
+      "name": "Sealdah - Garia",
+      "type": "Regular",
+      "route": [
+        "Sealdah Station",
+        "College Street",
+        "Dalhousie",
+        "Esplanade",
+        "Park Street",
+        "Kalighat",
+        "Tollygunge",
+        "Kudghat",
+        "Patuli",
+        "Garia Station"
+      ],
+      "landmarks": [
+        "Sealdah Railway Station",
+        "Presidency University",
+        "Park Street Metro",
+        "Kalighat Temple",
+        "Tollygunge Metro",
+        "Garia Railway Station"
+      ]
+    },
+    {
+      "number": "AC22",
+      "name": "Jadavpur - Salt Lake",
+      "type": "AC",
+      "route": [
+        "Jadavpur University",
+        "8B Bus Stand",
+        "Rashbehari Avenue",
+        "Kalighat",
+        "Park Street",
+        "Esplanade",
+        "Bowbazar",
+        "Shyambazar",
+        "Ultadanga",
+        "VIP Road",
+        "Salt Lake City Centre"
+      ],
+      "landmarks": [
+        "Jadavpur University",
+        "Kalighat Temple",
+        "Park Street Metro",
+        "Shyambazar Metro",
+        "City Centre Mall"
+      ]
+    }
+  ],
+  "majorStops": [
+    "Howrah Station",
+    "Sealdah Station",
+    "Esplanade",
+    "Park Street",
+    "Dalhousie",
+    "BBD Bag",
+    "Shyambazar",
+    "Ultadanga",
+    "Salt Lake",
+    "Salt Lake City Centre",
+    "Salt Lake Sector V",
+    "Tollygunge",
+    "Kalighat",
+    "Ballygunge",
+    "Ballygunge Station",
+    "Jadavpur",
+    "Jadavpur University",
+    "Garia",
+    "Garia Station",
+    "College Street",
+    "Bowbazar",
+    "Burrabazar",
+    "Howrah Bridge",
+    "VIP Road",
+    "Bidhannagar",
+    "Rashbehari Avenue",
+    "8B Bus Stand",
+    "Camac Street",
+    "Ballygunge Phari",
+    "Baishnabghata",
+    "Patuli",
+    "Kudghat",
+    "Shibpur",
+    "Botanical Garden",
+    "Santragachi"
+  ]
+}
