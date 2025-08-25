@@ -14,7 +14,7 @@ export default function AboutScreen() {
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.header}>
           <Bus size={48} color="#14B8A6" />
-          <Text style={styles.title}>Kolkata Bus Finder</Text>
+          <Text style={styles.title}>Kolkata Metro Finder</Text>
           <Text style={styles.version}>Version 1.0.0</Text>
         </View>
 

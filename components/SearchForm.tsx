@@ -291,8 +291,8 @@ const styles = StyleSheet.create({
     elevation: 6,
   },
   searchButtonDisabled: {
-    backgroundColor: '#9CA3AF',
-    shadowColor: '#9CA3AF',
+    backgroundColor: '#14B8A6',
+    shadowColor: '#14B8A6',
   },
   searchButtonText: {
     color: '#FFFFFF',

@@ -10,7 +10,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import SearchForm from '@/components/SearchForm';
 import BusResult from '@/components/BusResult';
 import busData from '@/data/busRoutes.json';
-import { Bus, Route, Info } from 'lucide-react-native';
+import { Bus, Route, Info, Train, TrainFront, TrainFrontIcon, TrainFrontTunnelIcon, TrainIcon, TrainFrontTunnel, TrainTrack, TrainTrackIcon } from 'lucide-react-native';
 
 interface BusData {
   number: string;
@@ -143,8 +143,8 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Bus size={32} color="#14B8A6" />
-        <Text style={styles.title}>Kolkata Bus Finder</Text>
+        <TrainFront size={32} color="#14B8A6" strokeWidth={3}/>
+        <Text style={styles.title}>Kolkata Metro</Text>
         <Text style={styles.subtitle}>Find the best bus routes in the city</Text>
       </View>
 
