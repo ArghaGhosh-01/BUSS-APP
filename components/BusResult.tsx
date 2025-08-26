@@ -104,12 +104,6 @@ export default function BusResult({
                 </View>
                 <Text style={styles.busName}>{indirectRoute.firstBus.name}</Text>
               </View>
-              <TouchableOpacity
-                style={styles.favoriteButton}
-                onPress={() => onAddToFavorites(indirectRoute.firstBus)}
-              >
-                <Star size={16} color="#F59E0B" />
-              </TouchableOpacity>
             </View>
             <Text style={styles.segmentDescription}>
               Board at: {sourceStop} → Get off at: {indirectRoute.transferPoint}
@@ -117,7 +111,6 @@ export default function BusResult({
           </View>
 
           <View style={styles.transferIndicator}>
-            <ArrowRight size={20} color="#6B7280" />
             <Text style={styles.transferText}>Transfer</Text>
             <ArrowRight size={20} color="#6B7280" />
           </View>
@@ -134,12 +127,6 @@ export default function BusResult({
                 </View>
                 <Text style={styles.busName}>{indirectRoute.secondBus.name}</Text>
               </View>
-              <TouchableOpacity
-                style={styles.favoriteButton}
-                onPress={() => onAddToFavorites(indirectRoute.secondBus)}
-              >
-                <Star size={16} color="#F59E0B" />
-              </TouchableOpacity>
             </View>
             <Text style={styles.segmentDescription}>
               Board at: {indirectRoute.transferPoint} → Get off at: {destinationStop}

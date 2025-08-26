@@ -173,7 +173,7 @@ export default function HomeScreen() {
               <View style={styles.indirectInfo}>
                 <Info size={16} color="#F97316" />
                 <Text style={styles.indirectInfoText}>
-                  Showing {indirectRoutes.length} indirect route{indirectRoutes.length > 1 ? 's' : ''} with transfers
+                  {indirectRoutes.length} indirect route{indirectRoutes.length > 1 ? 's' : ''} found
                 </Text>
               </View>
             </View>
