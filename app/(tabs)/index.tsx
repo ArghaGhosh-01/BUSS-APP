@@ -145,7 +145,7 @@ export default function HomeScreen() {
       <View style={styles.header}>
         <TrainFront size={32} color="#14B8A6" strokeWidth={3}/>
         <Text style={styles.title}>Kolkata Metro</Text>
-        <Text style={styles.subtitle}>Find the best bus routes in the city</Text>
+        <Text style={styles.subtitle}>Find the best metro routes in the city</Text>
       </View>
 
       <SearchForm
@@ -161,7 +161,7 @@ export default function HomeScreen() {
                 Found {searchResults.length} direct route{searchResults.length > 1 ? 's' : ''}
               </Text>
               <View style={styles.directBadge}>
-                <Bus size={16} color="#14B8A6" />
+                <TrainFront size={16} color="#14B8A6" />
                 <Text style={styles.directBadgeText}>Direct Routes</Text>
               </View>
             </View>
@@ -222,7 +222,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F9FAFB',
+    backgroundColor: '#FFFFFF',
   },
   header: {
     alignItems: 'center',
@@ -230,7 +230,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     backgroundColor: '#FFFFFF',
     borderBottomWidth: 1,
-    borderBottomColor: '#E5E7EB',
+    borderBottomColor: '#FFFFFF',
   },
   title: {
     fontSize: 24,

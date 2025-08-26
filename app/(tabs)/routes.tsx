@@ -8,8 +8,9 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Search, Bus, MapPin } from 'lucide-react-native';
+import { Search, Bus, MapPin, Route } from 'lucide-react-native';
 import busData from '@/data/busRoutes.json';
+import { Path } from 'react-native-svg';
 
 interface BusData {
   number: string;
@@ -37,16 +38,51 @@ export default function RoutesScreen() {
     }
   };
 
+  const getTypeStyle = (type: string) => {
+    switch (type.toLowerCase()) {
+      case 'yellow':
+        return styles.yellowType;
+      case 'orange':
+        return styles.orangeType;
+      case 'purple':
+        return styles.purpleType;
+      case 'blue':
+        return styles.blueType;
+      case 'green':
+        return styles.greenType;
+      case 'pink':
+        return styles.pinkType;
+      default:
+        return styles.yellowType;
+    }
+  };
+
+  const getTypeText = (type: string) => {
+    switch (type.toLowerCase()) {
+      case 'yellow':
+        return 'Yellow Line';
+      case 'orange':
+        return 'Orange Line';
+      case 'purple':
+        return 'Purple Line';
+      case 'blue':
+        return 'Blue Line';
+      case 'green':
+        return 'Green Line';
+      case 'pink':
+        return 'Pink Line';
+      default:
+        return 'Yellow Line';
+    }
+  };
+
   const renderBusCard = (bus: BusData, index: number) => (
     <View key={index} style={styles.busCard}>
       <View style={styles.busHeader}>
         <View style={styles.busNumberContainer}>
           <Text style={styles.busNumber}>{bus.number}</Text>
-          <Text style={[
-            styles.busType,
-            bus.type === 'AC' ? styles.acType : styles.regularType
-          ]}>
-            {bus.type}
+          <Text style={[styles.busType, getTypeStyle(bus.type)]}>
+            {getTypeText(bus.type)}
           </Text>
         </View>
         <Text style={styles.busName}>{bus.name}</Text>
@@ -80,8 +116,7 @@ export default function RoutesScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>All Bus Routes</Text>
-        <Text style={styles.subtitle}>Browse all available bus routes</Text>
+        <Text style={styles.title}>All Metro Routes</Text>
       </View>
 
       <View style={styles.searchContainer}>
@@ -89,7 +124,7 @@ export default function RoutesScreen() {
           <Search size={20} color="#6B7280" />
           <TextInput
             style={styles.searchInput}
-            placeholder="Search by bus number, route name, or stop"
+            placeholder="Search by metro line, route name, or stop"
             value={searchText}
             onChangeText={handleSearch}
             placeholderTextColor="#9CA3AF"
@@ -99,7 +134,7 @@ export default function RoutesScreen() {
 
       <View style={styles.statsContainer}>
         <View style={styles.statItem}>
-          <Bus size={24} color="#14B8A6" />
+          <Route size={24} color="#14B8A6" />
           <Text style={styles.statNumber}>{filteredBuses.length}</Text>
           <Text style={styles.statLabel}>Routes</Text>
         </View>
@@ -131,7 +166,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     backgroundColor: '#FFFFFF',
     borderBottomWidth: 1,
-    borderBottomColor: '#E5E7EB',
+    borderBottomColor: '#FFFFFF',
   },
   title: {
     fontSize: 24,
@@ -151,7 +186,7 @@ const styles = StyleSheet.create({
   searchWrapper: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#F9FAFB',
+    backgroundColor: '#ecececff',
     borderRadius: 12,
     paddingHorizontal: 16,
     paddingVertical: 12,
@@ -207,7 +242,7 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   busNumber: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: 'bold',
     color: '#111827',
     marginRight: 8,
@@ -219,13 +254,29 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: '600',
   },
-  acType: {
+  yellowType: {
+    backgroundColor: '#FEF3C7',
+    color: '#92400E',
+  },
+  orangeType: {
+    backgroundColor: '#FFEDD5',
+    color: '#9A3412',
+  },
+  purpleType: {
+    backgroundColor: '#EDE9FE',
+    color: '#5B21B6',
+  },
+  blueType: {
     backgroundColor: '#DBEAFE',
     color: '#1E40AF',
   },
-  regularType: {
-    backgroundColor: '#F3F4F6',
-    color: '#6B7280',
+  greenType: {
+    backgroundColor: '#D1FAE5',
+    color: '#065F46',
+  },
+  pinkType: {
+    backgroundColor: '#FCE7F3',
+    color: '#9D174D',
   },
   busName: {
     fontSize: 16,

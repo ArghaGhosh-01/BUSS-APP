@@ -40,6 +40,44 @@ export default function BusResult({
   onAddToFavorites,
   isIndirect = false,
 }: BusResultProps) {
+  const getTypeStyle = (type: string) => {
+    switch (type.toLowerCase()) {
+      case 'yellow':
+        return styles.yellowType;
+      case 'orange':
+        return styles.orangeType;
+      case 'purple':
+        return styles.purpleType;
+      case 'blue':
+        return styles.blueType;
+      case 'green':
+        return styles.greenType;
+      case 'pink':
+        return styles.pinkType;
+      default:
+        return styles.yellowType;
+    }
+  };
+
+  const getTypeText = (type: string) => {
+    switch (type.toLowerCase()) {
+      case 'yellow':
+        return 'Yellow Line';
+      case 'orange':
+        return 'Orange Line';
+      case 'purple':
+        return 'Purple Line';
+      case 'blue':
+        return 'Blue Line';
+      case 'green':
+        return 'Green Line';
+      case 'pink':
+        return 'Pink Line';
+      default:
+        return 'Yellow Line';
+    }
+  };
+
   if (isIndirect && indirectRoute) {
     return (
       <View style={styles.container}>
@@ -60,11 +98,8 @@ export default function BusResult({
               <View style={styles.busInfo}>
                 <View style={styles.busNumberContainer}>
                   <Text style={styles.busNumber}>{indirectRoute.firstBus.number}</Text>
-                  <Text style={[
-                    styles.busType,
-                    indirectRoute.firstBus.type === 'AC' ? styles.acType : styles.regularType
-                  ]}>
-                    {indirectRoute.firstBus.type}
+                  <Text style={[styles.busType, getTypeStyle(indirectRoute.firstBus.type)]}>
+                    {getTypeText(indirectRoute.firstBus.type)}
                   </Text>
                 </View>
                 <Text style={styles.busName}>{indirectRoute.firstBus.name}</Text>
@@ -93,11 +128,8 @@ export default function BusResult({
               <View style={styles.busInfo}>
                 <View style={styles.busNumberContainer}>
                   <Text style={styles.busNumber}>{indirectRoute.secondBus.number}</Text>
-                  <Text style={[
-                    styles.busType,
-                    indirectRoute.secondBus.type === 'AC' ? styles.acType : styles.regularType
-                  ]}>
-                    {indirectRoute.secondBus.type}
+                  <Text style={[styles.busType, getTypeStyle(indirectRoute.secondBus.type)]}>
+                    {getTypeText(indirectRoute.secondBus.type)}
                   </Text>
                 </View>
                 <Text style={styles.busName}>{indirectRoute.secondBus.name}</Text>
@@ -151,21 +183,13 @@ export default function BusResult({
         <View style={styles.busInfo}>
           <View style={styles.busNumberContainer}>
             <Text style={styles.busNumber}>{bus.number}</Text>
-            <Text style={[
-              styles.busType,
-              bus.type === 'AC' ? styles.acType : styles.regularType
-            ]}>
-              {bus.type}
+            <Text style={[styles.busType, getTypeStyle(bus.type)]}>
+              {getTypeText(bus.type)}
             </Text>
           </View>
           <Text style={styles.busName}>{bus.name}</Text>
         </View>
-        <TouchableOpacity
-          style={styles.favoriteButton}
-          onPress={() => onAddToFavorites(bus)}
-        >
-          <Star size={20} color="#F59E0B" />
-        </TouchableOpacity>
+       
       </View>
 
       <View style={styles.routeInfo}>
@@ -180,6 +204,7 @@ export default function BusResult({
               {Math.abs(destIndex - sourceIndex)} stops away
             </Text>
           </View>
+          
         )}
       </View>
 
@@ -255,7 +280,7 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   busNumber: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: 'bold',
     color: '#111827',
     marginRight: 8,
@@ -267,13 +292,29 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: '600',
   },
-  acType: {
+  yellowType: {
+    backgroundColor: '#FEF3C7',
+    color: '#92400E',
+  },
+  orangeType: {
+    backgroundColor: '#FFEDD5',
+    color: '#9A3412',
+  },
+  purpleType: {
+    backgroundColor: '#EDE9FE',
+    color: '#5B21B6',
+  },
+  blueType: {
     backgroundColor: '#DBEAFE',
     color: '#1E40AF',
   },
-  regularType: {
-    backgroundColor: '#F3F4F6',
-    color: '#6B7280',
+  greenType: {
+    backgroundColor: '#D1FAE5',
+    color: '#065F46',
+  },
+  pinkType: {
+    backgroundColor: '#FCE7F3',
+    color: '#9D174D',
   },
   busName: {
     fontSize: 16,

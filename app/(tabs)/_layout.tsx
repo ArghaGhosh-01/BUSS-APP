@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router';
-import { Bus, MapPin, Info, Bookmark, Train, TrainFront, TrainTrack, TrainFrontTunnelIcon, TrainTrackIcon } from 'lucide-react-native';
+import { Bus, MapPin, Info, Bookmark, Train, TrainFront, TrainTrack, TrainFrontTunnelIcon, TrainTrackIcon, MapIcon, Route } from 'lucide-react-native';
 
 export default function TabLayout() {
   return (
@@ -14,7 +14,7 @@ export default function TabLayout() {
           borderTopColor: '#E5E7EB',
           paddingTop: 5,
           paddingBottom: 5,
-          height: 60,
+          height: 75,
         },
       }}>
       <Tabs.Screen
@@ -22,7 +22,7 @@ export default function TabLayout() {
         options={{
           title: 'Find Metro',
           tabBarIcon: ({ size, color }) => (
-            <TrainTrackIcon size={size} color={color} strokeWidth={2} />
+            <TrainFront size={size} color={color} strokeWidth={2} />
           ),
         }}
       />
@@ -31,16 +31,16 @@ export default function TabLayout() {
         options={{
           title: 'Routes',
           tabBarIcon: ({ size, color }) => (
-            <MapPin size={size} color={color} strokeWidth={2}/>
+            <Route size={size} color={color} strokeWidth={2}/>
           ),
         }}
       />
       <Tabs.Screen
         name="about"
         options={{
-          title: 'About',
+          title: 'Map',
           tabBarIcon: ({ size, color }) => (
-            <Info size={size} color={color} strokeWidth={2}/>
+            <MapIcon size={size} color={color} strokeWidth={2}/>
           ),
         }}
       />

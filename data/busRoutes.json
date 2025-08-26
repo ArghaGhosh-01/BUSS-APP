@@ -1,90 +1,88 @@
 {
   "buses": [
     {
-      "number": "North South Line 🔵",
-      "name": "New Town - Garia Station",
-      "type": "AC",
+      "number": "North South Line",
+      "name": "Dakineshwar - Kavi Subash",
+      "type": "blue",
       "route": [
-        "New Town",
-        "East Enclave",
-        "Technopolis",
-        "College More",
-        "Webel",
-        "SDF",
-        "Swastha Bhawan",
-        "Nicco Park",
-        "Chingrighata",
-        "Science City",
-        "Uttar Panchanyagram",
-        "Ruby Hospital",
-        "Kalikapur",
-        "Ajoynagar",
-        "Patuli",
-        "Dhalai Bridge",
-        "Balia",
-        "Garia Station"
+        "Dakineshwar",
+        "Baranagar",
+        "Dum Dum",
+        "Belgachia",
+        "Shyambazar",
+        "Sovabazar Sutanuti",
+        "Girish Park",
+        "M.G. Road",
+        "Central Station",
+        "Chandni Chowk",
+        "Esplanade",
+        "Park Street",
+        "Maidan",
+        "Rabindra Sadan",
+        "Netaji Bhawan",
+        "Jatin Das Park",
+        "Kalighat",
+        "Rabindra Sarobar",
+        "Mahanayak U.K.",
+        "Netaji",
+        "Masterda Suryasen",
+        "Geetanjali",
+        "Kavi Nazrul",
+        "Sahid Khudiram",
+        "Kavi Subash"
       ],
       "landmarks": [
-        "Technopolis",
-        "Nicco Park",
-        "Science City",
-        "Ruby Hospital",
-        "Garia Station"
+        "Dakineshwar",
+        "Esplanade",
+        "Kalighat",
+        "Kavi Subash"
       ]
     },
     {
-      "number": "East West Line 🟢",
-      "name": "Ramnagar to Mukundapur",
-      "type": "Regular",
+      "number": "East West Line",
+      "name": "Howrah Maidan - Salt Lake Sector V",
+      "type": "green",
       "route": [
-        "Ramnagar",
-        "BNR",
-        "Kidderpore",
-        "Bhabani Bhawan",
-        "Alipore Zoo",
-        "Hazra",
-        "Rashbehari",
-        "Gariahat",
-        "Kasba Post Office",
-        "Haltu",
-        "Safuipara",
-        "EM Bypass",
-        "Mukundapur"
+        "Howrah Maidan",
+        "Howrah",
+        "Mahakaran",
+        "Esplanade",
+        "Sealdah",
+        "Phoolbagan",
+        "Salt Lake Stadium",
+        "Bengal Chemicals",
+        "City Center",
+        "Central Park",
+        "Karunamoyee",
+        "Salt Lake Sector V"
       ],
       "landmarks": [
-        "Alipore Zoo",
-        "Gariahat",
-        "EM Bypass"
+        "Howrah",
+        "Esplanade",
+        "Sealdah",
+        "Salt Lake Sector V"
       ]
     },
     {
-      "number": "Southwestern (Joka) Line 🟣",
-      "name": "Ramnagar to Mukundapur",
-      "type": "Regular",
+      "number": "Southwestern (Joka) Line",
+      "name": "Joka - Taratala",
+      "type": "purple",
       "route": [
-        "Ramnagar",
-        "Kidderpore",
-        "Alipore Zoo",
-        "Bhabani Bhawan Hazra",
-        "Rashbehari",
-        "Tollygunge Phari",
-        "Jadavpur PS",
-        "8B",
-        "Santoshpur",
-        "Ajoynagar",
-        "EM Bypass",
-        "Mukundapur"
+        "Joka",
+        "Thakurpukur",
+        "Sakherbazar",
+        "Bahala Chowrasta",
+        "Behala Bazar",
+        "Taratala"
       ],
       "landmarks": [
-        "Alipore Zoo",
-        "Tollygunge Phari",
-        "EM Bypass"
+        "Metro Under Planning / Construction"
       ]
     },
     {
-      "number": "Newtown (Airport) Line 🟠",
-      "name": "Ramnagar to Nayabad",
-      "type": "Regular",
+      "number": "Newtown (Airport) Line",
+      "name": "Kavi Subash - Barun Sengupta",
+      "type": "orange",
       "route": [
         "Ramnagar",
         "Nature Park",
@@ -102,15 +100,13 @@
         "Nayabad"
       ],
       "landmarks": [
-        "Nature Park",
-        "Golpark",
-        "Garia Station"
+        "Metro Under Planning / Construction"
       ]
     },
     {
-      "number": " 🟡",
+      "number": "Eastern (Barasat) Line",
       "name": "New Alipore to Milk Colony",
-      "type": "Regular",
+      "type": "yellow",
       "route": [
         "New Alipore",
         "Durgapur Bridge",
@@ -140,9 +136,9 @@
       ]
     },
     {
-      "number": " ",
+      "number": "Northern (Barrackpore) Line",
       "name": "New Alipore to Milk Colony",
-      "type": "Regular",
+      "type": "pink",
       "route": [
         "New Alipore",
         "Durgapur Bridge",

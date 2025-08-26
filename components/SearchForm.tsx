@@ -223,7 +223,7 @@ export default function SearchForm({ onSearch, suggestions }: SearchFormProps) {
         disabled={!source.trim() || !destination.trim()}
       >
         <Search size={20} color="#FFFFFF" />
-        <Text style={styles.searchButtonText}>Find Buses</Text>
+        <Text style={styles.searchButtonText}>Find Metro</Text>
       </TouchableOpacity>
     </View>
   );
