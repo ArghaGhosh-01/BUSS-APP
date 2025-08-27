@@ -14,46 +14,15 @@ export default function AboutScreen() {
     <SafeAreaView style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.header}>
-          <Bus size={48} color="#14B8A6" />
           <Text style={styles.title}>Metro Map</Text>
         </View>
-        <View style={styles.content}>
-          <View style={styles.section}>
-            
-            {/* Full-width image */}
-            <View style={styles.imageContainer}>
-              <Image
-                source={{ uri: 'https://res.cloudinary.com/dohsmiakm/image/upload/v1756142607/metro_map_n3d10p.jpg' }}
+        <Image
+                source={{ uri: 'https://res.cloudinary.com/dohsmiakm/image/upload/v1756217908/metro_map_b6cxvy.png' }}
                 style={styles.featureImage}
                 resizeMode="cover"
               />
-            </View>
-
-            <View style={styles.featureItem}>
-              <MapPin size={20} color="#14B8A6" />
-              <Text style={styles.featureText}>
-                Smart route finding between source and destination
-              </Text>
-            </View>
-            <View style={styles.featureItem}>
-              <Bus size={20} color="#14B8A6" />
-              <Text style={styles.featureText}>
-                Complete bus route information with all stops
-              </Text>
-            </View>
-            <View style={styles.featureItem}>
-              <Heart size={20} color="#14B8A6" />
-              <Text style={styles.featureText}>
-                Save your favorite routes for quick access
-              </Text>
-            </View>
-            <View style={styles.featureItem}>
-              <Info size={20} color="#14B8A6" />
-              <Text style={styles.featureText}>
-                Landmarks and boarding point information
-              </Text>
-            </View>
-          </View>
+        <View style={styles.content}>
+          
 
           <View style={styles.footer}>
             <Text style={styles.footerText}>
@@ -109,7 +78,7 @@ const styles = StyleSheet.create({
   },
   featureImage: {
     width: '100%',
-    height: 680,
+    height: 650,
     borderRadius: 8,
   },
   featureItem: {

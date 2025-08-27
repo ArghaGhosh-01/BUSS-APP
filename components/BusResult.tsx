@@ -164,6 +164,19 @@ export default function BusResult({
   const isValidRoute = sourceIndex !== -1 && destIndex !== -1 && sourceIndex !== destIndex;
   const boardingPoint = sourceIndex !== -1 ? bus.route[sourceIndex] : sourceStop;
 
+  // Determine if we need to reverse the route for display
+  const shouldReverse = sourceIndex > destIndex;
+  const displayRoute = shouldReverse ? [...bus.route].reverse() : bus.route;
+  
+  // Find the new indices after potential reversal
+  const displaySourceIndex = shouldReverse 
+    ? displayRoute.findIndex(stop => stop.toLowerCase().includes(sourceStop.toLowerCase()))
+    : sourceIndex;
+    
+  const displayDestIndex = shouldReverse 
+    ? displayRoute.findIndex(stop => stop.toLowerCase().includes(destinationStop.toLowerCase()))
+    : destIndex;
+
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -176,7 +189,6 @@ export default function BusResult({
           </View>
           <Text style={styles.busName}>{bus.name}</Text>
         </View>
-       
       </View>
 
       <View style={styles.routeInfo}>
@@ -191,7 +203,6 @@ export default function BusResult({
               {Math.abs(destIndex - sourceIndex)} stops away
             </Text>
           </View>
-          
         )}
       </View>
 
@@ -199,12 +210,12 @@ export default function BusResult({
         <Text style={styles.routeTitle}>Complete Route:</Text>
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
           <View style={styles.routeStops}>
-            {bus.route.map((stop, index) => {
-              const isSource = index === sourceIndex;
-              const isDest = index === destIndex;
+            {displayRoute.map((stop, index) => {
+              const isSource = index === displaySourceIndex;
+              const isDest = index === displayDestIndex;
               const isBetween = isValidRoute && 
-                ((sourceIndex < destIndex && index > sourceIndex && index < destIndex) ||
-                 (sourceIndex > destIndex && index < sourceIndex && index > destIndex));
+                ((displaySourceIndex < displayDestIndex && index > displaySourceIndex && index < displayDestIndex) ||
+                 (displaySourceIndex > displayDestIndex && index < displaySourceIndex && index > displayDestIndex));
 
               return (
                 <View key={index} style={styles.stopContainer}>
