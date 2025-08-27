@@ -116,7 +116,7 @@ export default function RoutesScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>All Metro Routes</Text>
+        <Text style={styles.title}>Metro Routes</Text>
       </View>
 
       <View style={styles.searchContainer}>

@@ -21,15 +21,17 @@ export default function SearchForm({ onSearch, suggestions }: SearchFormProps) {
   const [showSourceSuggestions, setShowSourceSuggestions] = useState(false);
   const [showDestSuggestions, setShowDestSuggestions] = useState(false);
   const [filteredSuggestions, setFilteredSuggestions] = useState<string[]>([]);
-  const [activeField, setActiveField] = useState<'source' | 'destination' | null>(null);
+  const [activeField, setActiveField] = useState<
+    'source' | 'destination' | null
+  >(null);
   const [suggestionAnimation] = useState(new Animated.Value(0));
 
   const handleSourceChange = (text: string) => {
     setSource(text);
     if (text.length > 0) {
-      const filtered = suggestions.filter(s => 
-        s.toLowerCase().includes(text.toLowerCase())
-      ).slice(0, 5); // Limit to 5 suggestions
+      const filtered = suggestions
+        .filter((s) => s.toLowerCase().includes(text.toLowerCase()))
+        .slice(0, 5); // Limit to 5 suggestions
       setFilteredSuggestions(filtered);
       setActiveField('source');
       setShowSourceSuggestions(true);
@@ -43,9 +45,9 @@ export default function SearchForm({ onSearch, suggestions }: SearchFormProps) {
   const handleDestinationChange = (text: string) => {
     setDestination(text);
     if (text.length > 0) {
-      const filtered = suggestions.filter(s => 
-        s.toLowerCase().includes(text.toLowerCase())
-      ).slice(0, 5); // Limit to 5 suggestions
+      const filtered = suggestions
+        .filter((s) => s.toLowerCase().includes(text.toLowerCase()))
+        .slice(0, 5); // Limit to 5 suggestions
       setFilteredSuggestions(filtered);
       setActiveField('destination');
       setShowDestSuggestions(true);
@@ -121,10 +123,12 @@ export default function SearchForm({ onSearch, suggestions }: SearchFormProps) {
   return (
     <View style={styles.container}>
       <View style={styles.inputContainer}>
-        <View style={[
-          styles.inputWrapper,
-          activeField === 'source' && styles.inputWrapperActive
-        ]}>
+        <View
+          style={[
+            styles.inputWrapper,
+            activeField === 'source' && styles.inputWrapperActive,
+          ]}
+        >
           <MapPin size={20} color="#14B8A6" />
           <TextInput
             style={styles.input}
@@ -147,15 +151,17 @@ export default function SearchForm({ onSearch, suggestions }: SearchFormProps) {
             </TouchableOpacity>
           )}
         </View>
-        
+
         <TouchableOpacity style={styles.swapButton} onPress={swapLocations}>
           <ArrowUpDown size={20} color="#6B7280" />
         </TouchableOpacity>
-        
-        <View style={[
-          styles.inputWrapper,
-          activeField === 'destination' && styles.inputWrapperActive
-        ]}>
+
+        <View
+          style={[
+            styles.inputWrapper,
+            activeField === 'destination' && styles.inputWrapperActive,
+          ]}
+        >
           <MapPin size={20} color="#F97316" />
           <TextInput
             style={styles.input}
@@ -186,18 +192,22 @@ export default function SearchForm({ onSearch, suggestions }: SearchFormProps) {
             styles.suggestionContainer,
             {
               opacity: suggestionAnimation,
-              transform: [{
-                translateY: suggestionAnimation.interpolate({
-                  inputRange: [0, 1],
-                  outputRange: [-10, 0],
-                })
-              }]
-            }
+              transform: [
+                {
+                  translateY: suggestionAnimation.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: [-10, 0],
+                  }),
+                },
+              ],
+            },
           ]}
         >
           <View style={styles.suggestionHeader}>
             <Text style={styles.suggestionHeaderText}>
-              {activeField === 'source' ? 'Select Source' : 'Select Destination'}
+              {activeField === 'source'
+                ? 'Select Source'
+                : 'Select Destination'}
             </Text>
             <TouchableOpacity onPress={hideSuggestions}>
               <X size={16} color="#6B7280" />
@@ -214,11 +224,12 @@ export default function SearchForm({ onSearch, suggestions }: SearchFormProps) {
         </Animated.View>
       )}
 
-      <TouchableOpacity 
+      <TouchableOpacity
         style={[
           styles.searchButton,
-          (!source.trim() || !destination.trim()) && styles.searchButtonDisabled
-        ]} 
+          (!source.trim() || !destination.trim()) &&
+            styles.searchButtonDisabled,
+        ]}
         onPress={handleSearch}
         disabled={!source.trim() || !destination.trim()}
       >

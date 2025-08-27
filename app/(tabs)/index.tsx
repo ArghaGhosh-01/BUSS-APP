@@ -144,8 +144,8 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
         <TrainFront size={32} color="#14B8A6" strokeWidth={3}/>
-        <Text style={styles.title}>Kolkata Metro</Text>
-        <Text style={styles.subtitle}>Find the best metro routes in the city</Text>
+        <Text style={styles.title}>MetroFlow</Text>
+        <Text style={styles.subtitle}>Find the best metro routes in the Kolkata</Text>
       </View>
 
       <SearchForm

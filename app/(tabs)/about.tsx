@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  ScrollView,
-  Image,
-} from 'react-native';
+import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Bus, MapPin, Heart, Info } from 'lucide-react-native';
 
@@ -17,20 +11,15 @@ export default function AboutScreen() {
           <Text style={styles.title}>Metro Map</Text>
         </View>
         <Image
-                source={{ uri: 'https://res.cloudinary.com/dohsmiakm/image/upload/v1756217908/metro_map_b6cxvy.png' }}
-                style={styles.featureImage}
-                resizeMode="cover"
-              />
+          source={{
+            uri: 'https://res.cloudinary.com/dohsmiakm/image/upload/v1756217908/metro_map_b6cxvy.png',
+          }}
+          style={styles.featureImage}
+          resizeMode="cover"
+        />
         <View style={styles.content}>
-          
-
           <View style={styles.footer}>
-            <Text style={styles.footerText}>
-              Made with ❤️ for Kolkata commuters
-            </Text>
-            <Text style={styles.footerText}>
-              © 2025 Kolkata Bus Finder
-            </Text>
+            <Text style={styles.footerText}>© 2025 MetroFlow</Text>
           </View>
         </View>
       </ScrollView>
@@ -45,15 +34,15 @@ const styles = StyleSheet.create({
   },
   header: {
     alignItems: 'center',
-    paddingVertical: 40,
+    paddingVertical: 20,
     paddingHorizontal: 20,
     backgroundColor: '#FFFFFF',
   },
   title: {
-    fontSize: 28,
+    fontSize: 25,
     fontWeight: 'bold',
     color: '#111827',
-    marginTop: 16,
+    marginTop: 0,
   },
   content: {
     paddingHorizontal: 20,

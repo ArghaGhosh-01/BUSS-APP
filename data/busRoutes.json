@@ -31,12 +31,7 @@
         "Sahid Khudiram",
         "Kavi Subash"
       ],
-      "landmarks": [
-        "Dakineshwar",
-        "Esplanade",
-        "Kalighat",
-        "Kavi Subash"
-      ]
+      "landmarks": ["Dakineshwar", "Esplanade", "Kalighat", "Kavi Subash"]
     },
     {
       "number": "East West Line",
@@ -56,12 +51,7 @@
         "Karunamoyee",
         "Salt Lake Sector V"
       ],
-      "landmarks": [
-        "Howrah",
-        "Esplanade",
-        "Sealdah",
-        "Salt Lake Sector V"
-      ]
+      "landmarks": ["Howrah", "Esplanade", "Sealdah", "Salt Lake Sector V"]
     },
     {
       "number": "Southwestern (Joka) Line",
@@ -76,9 +66,7 @@
         "Taratala",
         "Majerhat"
       ],
-      "landmarks": [
-        "Metro Under Planning / Construction"
-      ]
+      "landmarks": ["Metro Under Planning / Construction"]
     },
     {
       "number": "Newtown (Airport) Line",
@@ -95,9 +83,7 @@
         "Barun Sengupta",
         "Beleghata"
       ],
-      "landmarks": [
-        "Metro Under Planning / Construction"
-      ]
+      "landmarks": ["Metro Under Planning / Construction"]
     },
     {
       "number": "Eastern (Barasat) Line",
@@ -109,76 +95,71 @@
         "Jessore Road",
         "Jai Hind (Airport)"
       ],
-      "landmarks": [
-        "Noapara",
-        "Jai Hind (Airport)"
-      ]
+      "landmarks": ["Noapara", "Jai Hind (Airport)"]
     },
     {
       "number": "Northern (Barrackpore) Line",
       "name": "Baranagar - Barrackpore",
       "type": "pink",
-      "route": [
-      ],
-      "landmarks": [
-      ]
+      "route": [],
+      "landmarks": []
     }
   ],
   "majorStops": [
     "Dakineshwar",
-        "Baranagar",
-        "Dum Dum",
-        "Belgachia",
-        "Shyambazar",
-        "Sovabazar Sutanuti",
-        "Girish Park",
-        "M.G. Road",
-        "Central Station",
-        "Chandni Chowk",
-        "Esplanade",
-        "Park Street",
-        "Maidan",
-        "Rabindra Sadan",
-        "Netaji Bhawan",
-        "Jatin Das Park",
-        "Kalighat",
-        "Rabindra Sarobar",
-        "Mahanayak U.K.",
-        "Netaji",
-        "Masterda Suryasen",
-        "Geetanjali",
-        "Kavi Nazrul",
-        "Sahid Khudiram",
-        "Kavi Subash",
-        "Howrah Maidan",
-        "Howrah",
-        "Mahakaran",
-        "Sealdah",
-        "Phoolbagan",
-        "Salt Lake Stadium",
-        "Bengal Chemicals",
-        "City Center",
-        "Central Park",
-        "Karunamoyee",
-        "Salt Lake Sector V",
-        "Joka",
-        "Thakurpukur",
-        "Sakherbazar",
-        "Bahala Chowrasta",
-        "Behala Bazar",
-        "Taratala",
-        "Majerhat",
-        "Satyajit Ray",
-        "Jyotindra N.N.",
-        "Kavi Sukanta",
-        "Hemanta M.",
-        "V.I.P. Bazar",
-        "Ritwik Ghatak",
-        "Barun Sengupta",
-        "Beleghata",
-        "Noapara",
-        "Dum Dum Cantonment",
-        "Jessore Road",
-        "Jai Hind (Airport)"
+    "Baranagar",
+    "Dum Dum",
+    "Belgachia",
+    "Shyambazar",
+    "Sovabazar Sutanuti",
+    "Girish Park",
+    "M.G. Road",
+    "Central Station",
+    "Chandni Chowk",
+    "Esplanade",
+    "Park Street",
+    "Maidan",
+    "Rabindra Sadan",
+    "Netaji Bhawan",
+    "Jatin Das Park",
+    "Kalighat",
+    "Rabindra Sarobar",
+    "Mahanayak U.K.",
+    "Netaji",
+    "Masterda Suryasen",
+    "Geetanjali",
+    "Kavi Nazrul",
+    "Sahid Khudiram",
+    "Kavi Subash",
+    "Howrah Maidan",
+    "Howrah",
+    "Mahakaran",
+    "Sealdah",
+    "Phoolbagan",
+    "Salt Lake Stadium",
+    "Bengal Chemicals",
+    "City Center",
+    "Central Park",
+    "Karunamoyee",
+    "Salt Lake Sector V",
+    "Joka",
+    "Thakurpukur",
+    "Sakherbazar",
+    "Bahala Chowrasta",
+    "Behala Bazar",
+    "Taratala",
+    "Majerhat",
+    "Satyajit Ray",
+    "Jyotindra N.N.",
+    "Kavi Sukanta",
+    "Hemanta M.",
+    "V.I.P. Bazar",
+    "Ritwik Ghatak",
+    "Barun Sengupta",
+    "Beleghata",
+    "Noapara",
+    "Dum Dum Cantonment",
+    "Jessore Road",
+    "Jai Hind (Airport)"
   ]
 }
